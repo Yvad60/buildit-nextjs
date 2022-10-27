@@ -4,10 +4,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        noto_sans: ['Noto Sans', 'sans-serif'],
+        sans: ['Noto Sans', 'sans-serif'],
       },
       colors: {
         primary_text: '#678C92',
+      },
+      backgroundImage: {
+        banner: 'linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%)',
       },
     },
   },
